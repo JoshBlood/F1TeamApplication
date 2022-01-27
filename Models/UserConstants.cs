@@ -10,7 +10,7 @@ namespace F1TeamApplication.Models
         public static List<User> Users = new List<User>()
         {
             new User() { UserId = 104, Username = "Josh", GivenName = "Josh", Surname = "Bloodworth", Email = "Josh@gmail.com",
-                Role = "Admin", MobileNumber = 01234 },
+                Role = "Administrator", MobileNumber = 01234, Password = "Josh1" },
         };
     }
 }
