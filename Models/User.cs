@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace F1TeamApplication.Models
 {
-    public class UserModel
+    public class User
     {
         public int UserId { get; set; }
         public string Username { get; set; }    
